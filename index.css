@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+}
+#myCanvas{
+    border: 2px solid black;
+}
+.container{
+    margin-top: 30px;
+    text-align: center;
+}
+.top{
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.bottom{
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+#btn1{
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+}
+#btn2{
+    background-color: green;
+    border: 2px solid black;
+    color: white;
+}
+#btn3{
+    background-color: #00bcd4;
+    color: white;
+    border: 2px solid black;
+}
+.btn{
+    border-radius: 10px;
+    width:200px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.control{
+    width:200px;
+    padding: 7px;
+}
+.controler{
+    width: 200px;
+}

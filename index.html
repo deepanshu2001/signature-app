@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signature App</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="top">
+        <div class="text-color">
+            <p>Select Text Color</p>
+            <input class="control" type="color" id="textcolorpicker">
+        </div>
+        <div class="bg-color">
+            <p>Select Background Color</p>
+            <input class="control" type="color" type="color" id="bgcolorpicker">
+        </div>
+        <div class="text">
+            <p>Select Font Size</p>
+            <select id="fontpicker" class="controler" name="font" id="fnt">
+                <option value="2">2px</option>
+                <option value="3">3px</option>
+                <option value="4">4px</option>
+                <option value="5">5px</option>
+              </select>
+        </div>
+    </div>
+    <div class="container">
+        <canvas id="myCanvas" width="600px" height="300px"></canvas>
+    </div>
+    <div class="bottom">
+        <button type="button" id="btn1" class="btn">Clear</button>
+        <button type="button" id="btn2" class="btn">Save and Download</button>
+        <button type="button" id="btn3" class="btn">Retrive saved Image</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
